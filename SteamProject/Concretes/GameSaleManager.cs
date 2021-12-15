@@ -19,7 +19,7 @@ namespace SteamProject.Concretes
 
         public void Sale(Gamer gamer, Game game)
         {
-            Console.WriteLine( "Ücreti : " + game.UnitPrice + "  olan " + game.Name + " İsimli Oyunu " + "satın aldınız! " + "Tebrikler : " + gamer.FirstName );
+            Console.WriteLine( "Ücreti : " + game.UnitPrice + " TL olan " + game.Name + " İsimli Oyunu " + "satın aldınız! " + "Tebrikler : " + gamer.FirstName );
         }
     }
 }
