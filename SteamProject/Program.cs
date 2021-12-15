@@ -22,11 +22,7 @@ namespace SteamProject
             campaignManager.Add(new Campaign { CampaignName = "Yeniyıl indirimi" });
 
             GameSaleManager gameSaleManager = new GameSaleManager();
-            gameSaleManager.Sale(new Gamer { FirstName = "Cengiz Han" },new Game {Name="COD" });
-
-
-
-           
+            gameSaleManager.Sale(new Gamer { FirstName = "Cengiz Han" },new Game {Name="COD",UnitPrice=200,Id=1 });
 
             Console.ReadLine();
         }
