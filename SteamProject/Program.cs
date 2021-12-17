@@ -16,7 +16,7 @@ namespace SteamProject
         {
 
             BaseGamerManager gamerManager = new SteamGamerService(new MernisServiceAdapter());
-            gamerManager.Save(new Gamer {DateOfBirth = new DateTime(1994,04,25),FirstName="Cengiz Han",LastName="Uyar",NationalityId="54787661206" });
+            gamerManager.Save(new Gamer {DateOfBirth = new DateTime(1994,04,25),FirstName="FirstName",LastName="LastName",NationalityId="TCNO" });
 
             CampaignManager campaignManager = new CampaignManager();
             campaignManager.Add(new Campaign { CampaignName = "Yeniyıl indirimi" });
