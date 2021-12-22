@@ -18,7 +18,7 @@ namespace SteamProject.Abstracts
 
         public virtual  void Save(Gamer gamer)
         {
-            Console.WriteLine("Gamer is saved to SteamDatabase : " + gamer.FirstName );
+            Console.WriteLine("Oyuncu Eklendi : " + gamer.FirstName );
            
         }
 
